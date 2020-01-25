@@ -40,9 +40,9 @@ $sixtySession = $row["sixtySession"];
     <!-- keywords -->
     <meta name="keywords" content="">
     <!-- title -->
-    <title>Boltex - One Page Parallax</title>
+    <title>Adrian Munoz</title>
     <!-- favicon -->
-    <link rel="icon" href="images/fav-icon.ico">
+    <link rel="icon" href="images/ig_images/dumbbell_icon.png">
     <!-- animation -->
     <link rel="stylesheet" href="css/animate.min.css"/>
     <!-- bootstrap -->
@@ -86,9 +86,11 @@ $sixtySession = $row["sixtySession"];
         <div class="container nav-header-container">
             <div class="row">
                 <div class="col-md-2 col-xs-5">
-                    <a href="#home" title="Logo" class="logo scroll"><img src="images/logo-blue-black.png"
+
+                    <!-- Nav Home Logo -->
+                    <!-- <a href="#home" title="Logo" class="logo scroll"><img src="images/logo-blue-black.png"
                                                                           class="logo-dark" alt="boltex"><img
-                            src="images/logo-blue-white.png" alt="boltex" class="logo-light default"></a>
+                            src="images/logo-blue-white.png" alt="boltex" class="logo-light default"></a> -->
                 </div>
                 <!-- end logo -->
                 <div class="col-md-7 col-xs-2 width-auto pull-right accordion-menu xs-no-padding-right hidden-sm hidden-xs">
@@ -100,34 +102,31 @@ $sixtySession = $row["sixtySession"];
                                 <a href="#home" class="scroll">Home</a>
                             </li>
                             <li>
-                                <a href="#feature" class="scroll">About</a>
+                                <a href="#about" class="scroll">About</a>
                             </li>
                             <li>
-                                <a href="#about" class="scroll">Services</a>
+                                <a href="#services" class="scroll">Services</a>
                             </li>
                             <li>
-                                <a href="#team" class="scroll">Team</a>
-                            </li>
-                            <li>
-                                <a href="#work" class="scroll">Work</a>
-                            </li>
-                            <li>
-                                <a href="#blog" class="scroll">Blog</a>
-                            </li>
-                            <li>
-                                <a href="shop.html">Shop</a>
+                                <a href="#reviews" class="scroll">Reviews</a>
                             </li>
                             <li>
                                 <a href="#contact" class="scroll">Contact</a>
+                            </li>
+                            <li>
+                                <a href="231.html">23/1</a>
+                            </li>
+                            <li>
+                                <a href="pricing.html">Pricing</a>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-2 col-xs-5 width-auto sm-width-15 xs-width-20 no-padding">
                     <div class="header-social-icon sm-display-none" aria-hidden="true">
-                        <a href="#." class="facebook-bg-hvr"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="#." class="twitter-bg-hvr"><i class="fa fa-twitter"></i></a>
-                        <a href="#." class="linkedin-bg-hvr"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/adrian.leanknights" class="facebook-bg-hvr"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/adrianalive101" class="twitter-bg-hvr"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/adriantwentythreeone/" class="instagram-bg-hvr"><i class="fa fa-instagram"></i></a>
                     </div>
                 </div>
                 <!--side nav -->
@@ -138,13 +137,15 @@ $sixtySession = $row["sixtySession"];
                 </div>
                 <div class="sidebar_menu">
                     <nav class="pushmenu pushmenu-right">
-                        <a class="push-logo" href="#."><img src="images/logo-blue-white.png" alt="logo"></a>
+
+                        <!-- Slider Clickable Logo -->
+                        <!-- <a class="push-logo" href="#."><img src="images/logo-blue-white.png" alt="logo"></a> -->
                         <div class="medium-icon side-nav-social-icon list-inline">
-                            <a class="facebook-bg-hvr" href="#."><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a class="facebook-bg-hvr" href="https://www.facebook.com/adrian.leanknights"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 
-                            <a class="pinterest-bg-hvr" href="#."><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                            <a class="twitter-bg-hvr" href="https://twitter.com/adrianalive101"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 
-                            <a class="instagram-bg-hvr" href="#."><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a class="instagram-bg-hvr" href="https://www.instagram.com/adriantwentythreeone/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                         </div>
                         <ul class="push_nav centered">
                             <li class="clearfix">
@@ -152,34 +153,33 @@ $sixtySession = $row["sixtySession"];
 
                             </li>
                             <li class="clearfix">
-                                <a href="#feature" class="scroll"> <span>02.</span>Features</a>
+                                <a href="#about" class="scroll"> <span>02.</span>About</a>
 
                             </li>
                             <li class="clearfix">
-                                <a href="#about" class="scroll"> <span>03.</span>About</a>
+                                <a href="#services" class="scroll"> <span>03.</span>Services</a>
 
                             </li>
                             <li class="clearfix">
-                                <a href="#work" class="scroll"> <span>04.</span>Work</a>
+                                <a href="#reviews" class="scroll"> <span>04.</span>Reviews</a>
 
                             </li>
 
                             <li class="clearfix">
-                                <a href="#price" class="scroll"> <span>05.</span>Pricing</a>
+                                <a href="#contact" class="scroll"> <span>05.</span>Contact</a>
 
                             </li>
                             <li class="clearfix">
-                                <a href="#blog" class="scroll"> <span>06.</span>Blog</a>
+                                <a href="231.html" class="scroll"> <span>06.</span>23/1</a>
 
                             </li>
                             <li class="clearfix">
-                                <a href="#contact" class="scroll"> <span>07.</span>Contact</a>
+                                <a href="pricing" class="scroll"> <span>07.</span>Pricing</a>
 
                             </li>
 
                         </ul>
 
-                        <p class="push-bottom text-white text-small">Boltex 2018 Made With Love By Theme Industry</p>
                     </nav>
                 </div>
             </div>
@@ -203,7 +203,7 @@ $sixtySession = $row["sixtySession"];
                     data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
                     data-param9="" data-param10="" data-description="">
                     <!-- MAIN IMAGE -->
-                    <img src="images/17ba0-maintenance-bg.jpg" alt="image" data-bgposition="center center"
+                    <img src="images/ig_images/dumbbells_bg.jpg" alt="image" data-bgposition="center center"
                          data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg"
                          data-no-retina>
                     <!-- LAYERS -->
@@ -236,7 +236,7 @@ $sixtySession = $row["sixtySession"];
                          id="slide-11-layer-2"
                          data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                          data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
-                         data-fontsize="['120','100','70','70']"
+                         data-fontsize="['100','100','70','70']"
                          data-lineheight="['120','100','70','70']"
                          data-width="none"
                          data-height="none"
@@ -253,7 +253,7 @@ $sixtySession = $row["sixtySession"];
                          data-paddingleft="[0,0,0,0]"
 
                          style="z-index: 6; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 700; color: #ffffff; letter-spacing: 0px;font-family:Raleway;">
-                        <div id="js-rotating">Parallax,Website</div>
+                        <div id="js-rotating">Adrian Munoz</div>
                     </div>
 
                     <!-- LAYER NR. 3 -->
@@ -278,7 +278,7 @@ $sixtySession = $row["sixtySession"];
                          data-paddingleft="[0,0,0,0]"
 
                          style="z-index: 7; white-space: nowrap; font-size: 35px; line-height: 35px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Raleway;">
-                        Creative One Page
+                        El Paso's Best Trainer 2019 Nominee
                     </div>
 
                     <!-- LAYER NR. 4 --> 
@@ -298,7 +298,7 @@ $sixtySession = $row["sixtySession"];
                         data-paddingleft="[0,0,0,0]"
 
                         style="z-index: 99; max-width: 960px; font-size: 20px; line-height: 20px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Raleway;"> 
-                        <a href="#." class="btn btn-rounded btn-blue btn-hvr-white btn-large">Take Free Workout Assessment</a>
+                        <!-- <a href="#." class="btn btn-rounded btn-blue btn-hvr-white btn-large">Take Free Workout Assessment</a> -->
                     </div>
                 </li>
             </ul>
@@ -309,63 +309,7 @@ $sixtySession = $row["sixtySession"];
 </section>
 <!-- slider end -->
 
-<!-- start feature -->
-<section id="feature" class="how-it-work text-center bg-light-gray no-transition">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-9 text-center center-col last-paragraph-no-margin">
-                <div class="sec-title margin-100px-bottom">
-                    <div class="text-large text-red margin-10px-bottom font-weight-400 text-blue">All You Need To Know</div>
-                    <h3 class="text-capitalize alt-font text-extra-dark-gray font-weight-300">
-                        Our Features</h3>
-                    <p class="width-75 margin-lr-auto md-width-90 xs-width-100 xs-margin-30px-bottom">Excepteur sint
-                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                        laborum. Perspiciatis unde omnis iste natus error sit.</p>
-                </div>
-            </div>
-        </div>
 
-        <div class="how-one-container">
-            <!--how it work Box-->
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="how-box-one inner-box xs-margin-100px-bottom">
-                    <div class="icon-box bg-blue">
-                        <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
-                    </div>
-                    <div class="text-large text-extra-dark-gray margin-20px-bottom">Plaining</div>
-                    <p>Capitalise on low hanging fruit to identify a ballpark value added activity.
-                    </p>
-                </div>
-            </div>
-
-            <!--how it work Box-->
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="how-box-one inner-box sm-margin-100px-bottom xs-margin-100px-bottom">
-                    <div class="icon-box bg-blue">
-                        <i class="fa fa-group" aria-hidden="true"></i>
-                    </div>
-                    <div class="text-large text-extra-dark-gray margin-20px-bottom">Designing</div>
-                    <p>Capitalise on low hanging fruit to identify a ballpark value added activity.
-                    </p>
-                </div>
-            </div>
-
-            <!--how it work Box-->
-            <div class="col-md-4 col-sm-12 col-xs-12">
-                <div class="how-box-one inner-box">
-                    <div class="icon-box bg-blue">
-                        <i class="fa fa-comments-o" aria-hidden="true"></i>
-                    </div>
-                    <div class="text-large text-extra-dark-gray margin-20px-bottom">Development</div>
-                    <p>Capitalise on low hanging fruit to identify a ballpark value added activity.
-                    </p>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-<!--end feature -->
 
 <!-- start about -->
 <section id="about" class="no-padding">
@@ -381,11 +325,12 @@ $sixtySession = $row["sixtySession"];
                 <div class="col-md-6 sm-padding-50px-tb">
                     <div class="split-box text-center center-block equalheight">
                         <div class="about-box">
-                            <div class="text-large text-red margin-10px-bottom font-weight-400 text-blue">Service We Provide</div>
+                            <!-- <div class="text-large text-red margin-10px-bottom font-weight-400 text-blue">Service We Provide</div> -->
                             <h3 class="text-capitalize alt-font text-extra-dark-gray font-weight-300">
-                                Creative Designs</h3>
-                            <p>Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus.</p>
-                            <a href="#." class="btn btn-transparent-blue btn-rounded btn-large margin-20px-top">Learn More</a>
+                                About Me</h3>
+                            <p>I am very passionate about helping people reach their health and fitness goals. I have over ten years of experience and I have worked with many people including but not limited to: nurses, doctors, business owners, students, professional athletes, and competitors. 
+                                I specialize in fat loss, muscle gain, competition preparation, sport specific preparation, muscle rehab therapy, injury prevention therapy.</p>
+                            <!-- <a href="#." class="btn btn-transparent-blue btn-rounded btn-large margin-20px-top">Learn More</a> -->
                         </div>
                     </div>
                 </div>
@@ -403,11 +348,19 @@ $sixtySession = $row["sixtySession"];
                 <div class="col-md-6 sm-padding-50px-tb">
                     <div class="split-box text-center center-block equalheight">
                         <div class="about-box">
-                            <div class="text-large text-red margin-10px-bottom font-weight-400 text-blue">Service We Provide</div>
+                            <!-- <div class="text-large text-red margin-10px-bottom font-weight-400 text-blue">Service We Provide</div> -->
                             <h3 class="text-capitalize alt-font text-extra-dark-gray font-weight-300">
-                                SEO Marketing</h3>
-                            <p>Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus.</p>
-                            <a href="#." class="btn btn-transparent-blue btn-rounded btn-large margin-20px-top">Learn More</a>
+                                Certifications</h3>
+                            <ul>
+                                <li>Advanced Personal Training</li>
+                                <li>Master Personal Training</li>
+                                <li>Strength & Conditioning</li>
+                                <li>Restorative Therapy</li>
+                                <li>Nutrition & Wellness</li>
+                                <li>Sport Specific Training</li>
+                                <li>Sports Nutrition</li>
+                            </ul>
+                            <!-- <a href="#." class="btn btn-transparent-blue btn-rounded btn-large margin-20px-top">Learn More</a> -->
                         </div>
                     </div>
                 </div>
@@ -417,376 +370,73 @@ $sixtySession = $row["sixtySession"];
 </section>
 <!-- about end -->
 
-<!-- team -->
-<section id="team" class="text-center bg-light-gray">
+<!-- start feature -->
+<section id="services" class="how-it-work text-center bg-light-gray no-transition">
     <div class="container">
         <div class="row">
             <div class="col-lg-9 text-center center-col last-paragraph-no-margin">
                 <div class="sec-title margin-100px-bottom">
-                    <div class="text-large text-red margin-10px-bottom font-weight-400 text-blue">Heros Behind The Company</div>
+                    <div class="text-large text-red margin-10px-bottom font-weight-400 text-blue">All You Need To Know</div>
                     <h3 class="text-capitalize alt-font text-extra-dark-gray font-weight-300">
-                        Creative Team</h3>
-                    <p class="width-75 margin-lr-auto md-width-90 xs-width-100 xs-margin-30px-bottom">Excepteur sint
-                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                        laborum. Perspiciatis unde omnis iste natus error sit.</p>
+                        Services</h3>
+                    <p class="width-75 margin-lr-auto md-width-90 xs-width-100 xs-margin-30px-bottom">My services
+                        begin with a consultation in order to get an idea of what your goals are. Once we come to an
+                        agreement, I will build you a custom meal plan, hold in person training sessions, and work towards meeting your fitness goals.</p>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-4 col-sm-6 col-xs-12 sm-margin-30px-bottom">
-                <div class="team-box sm-margin-30px-bottom xs-margin-30px-bottom">
-                    <div class="team-image">
-                        <img src="images/team-one.jpg" alt="image">
+
+        <div class="how-one-container">
+            <!--how it work Box-->
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="how-box-one inner-box xs-margin-100px-bottom">
+                    <div class="icon-box bg-blue">
+                        <i class="fa fa-cutlery" aria-hidden="true"></i>
                     </div>
-                    <div class="team-three-tag">
-                        <div class="team-three-text display-inline float-left text-left">
-                            <h6 class="text-extra-dark-gray no-margin-bottom">Keny <span class="text-blue">Walkin</span></h6>
-                            <p class="no-margin-bottom">Comapny CEO</p>
-                        </div>
-                        <div class="team-three-social bg-blue" aria-hidden="true">
-                            <a href="#." class="facebook-text-hvr"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href="#." class="twitter-text-hvr"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="#." class="linkedin-text-hvr"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
+                    <div class="text-large text-extra-dark-gray margin-20px-bottom">Meal Planning</div>
+                    <p>Meal planning is essential to reaching your goals. I will create a custom meal plan that will help you reach your goals quicker! Ask me about <a href="231.hmtl">23/1</a>!
+                    </p>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 sm-margin-30px-bottom">
-                <div class="team-box sm-no-margin-bottom xs-no-margin-bottom">
-                    <div class="team-image">
-                        <img src="images/team-three.jpg" alt="image">
+
+            <!--how it work Box-->
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="how-box-one inner-box sm-margin-100px-bottom xs-margin-100px-bottom">
+                    <div class="icon-box bg-blue">
+                        <i class="fa fa-bicycle" aria-hidden="true"></i>
                     </div>
-                    <div class="team-three-tag">
-                        <div class="team-three-text display-inline float-left text-left">
-                            <h6 class="text-extra-dark-gray no-margin-bottom">Mike <span class="text-blue">Kongel</span></h6>
-                            <p class="no-margin-bottom">Marketing Manager</p>
-                        </div>
-                        <div class="team-three-social bg-blue" aria-hidden="true">
-                            <a href="#." class="facebook-text-hvr"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href="#." class="twitter-text-hvr"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="#." class="linkedin-text-hvr"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
+                    <div class="text-large text-extra-dark-gray margin-20px-bottom">Training</div>
+                    <p>Everyone has different fitness goals, for this reason I will make your workouts personally tailored to your goals. As goals change these workouts will be adjusted.
+                    </p>
                 </div>
             </div>
+
+            <!--how it work Box-->
             <div class="col-md-4 col-sm-12 col-xs-12">
-                <div class="team-box sm-margin-30px-bottom xs-margin-30px-bottom">
-                    <div class="team-image">
-                        <img src="images/team-two.jpg" alt="image">
+                <div class="how-box-one inner-box">
+                    <div class="icon-box bg-blue">
+                        <i class="fa fa-globe" aria-hidden="true"></i>
                     </div>
-                    <div class="team-three-tag">
-                        <div class="team-three-text display-inline float-left text-left">
-                            <h6 class="text-extra-dark-gray no-margin-bottom">Alena <span class="text-blue">Mocha</span></h6>
-                            <p class="no-margin-bottom">Creative Designer</p>
-                        </div>
-                        <div class="team-three-social bg-blue" aria-hidden="true">
-                            <a href="#." class="facebook-text-hvr"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href="#." class="twitter-text-hvr"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="#." class="linkedin-text-hvr"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- team end -->
-
-<!-- start parallax -->
-<section class="parallax no-transition bg-img1">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 text-left sm-text-center center-col">
-                <p class="text-large text-white margin-10px-bottom font-weight-400 margin-10px-bottom">We Have An Excellent Video</p>
-                <h3 class="text-capitalize alt-font text-white margin-30px-bottom font-weight-300 sm-width-100 xs-width-100">
-                    Watch Our Story</h3>
-                <a data-fancybox="" href="https://vimeo.com/191947042" class="btn btn-rounded btn-blue btn-hvr-white btn-large"><i class="fa fa-play"></i> Try Our Team</a>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- end parallax -->
-
-<!-- start work -->
-<section id="work" class="portfolio no-transition no-padding-bottom">
-
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-9 text-center center-col last-paragraph-no-margin">
-                <div class="sec-title margin-50px-bottom">
-                    <div class="text-large text-red margin-10px-bottom font-weight-400 text-blue">Portfolio Designs</div>
-                    <h3 class="text-capitalize alt-font text-extra-dark-gray font-weight-300">
-                        Recent Work</h3>
-                    <p class="width-75 margin-lr-auto md-width-90 xs-width-100 xs-margin-30px-bottom">Excepteur sint
-                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                        laborum. Perspiciatis unde omnis iste natus error sit.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <!-- filter links -->
-        <div class="filtering col-sm-12 text-center margin-50px-bottom">
-            <span data-filter="*" class="active">All</span>
-            <span data-filter=".brand">Brand</span>
-            <span data-filter=".web">Design</span>
-            <span data-filter=".graphic">Graphic</span>
-        </div>
-
-        <div class="clearfix"></div>
-        <!-- gallery -->
-        <div class="gallery text-center">
-
-            <!-- gallery item -->
-            <div class="col-md-3 items web sm-width-100">
-                <div class="item-img">
-                    <a href="images/workimg2.jpg" data-fancybox="images">
-                    <img src="images/workimg2.jpg" alt="image">
-                    <div class="item-img-overlay valign">
-                        <div class="overlay-info width-100">
-                            <h6 class="margin-5px-bottom">Recent Work</h6>
-                            <p>See Our Amazing Work</p>
-                        </div>
-                    </div>
-                    </a>
+                    <div class="text-large text-extra-dark-gray margin-20px-bottom">Online Programs</div>
+                    <p>Online clients will receive a workout plan to go along with their meal plan. We will stay in constant contact to relay progress. Available Worldwide!
+                    </p>
                 </div>
             </div>
 
-            <!-- gallery item -->
-            <div class="col-md-3 items web sm-width-100">
-                <div class="item-img">
-                    <a href="images/workimg3.jpg" data-fancybox="images">
-                    <img src="images/workimg3.jpg" alt="image">
-                    <div class="item-img-overlay valign">
-                        <div class="overlay-info width-100">
-                            <h6 class="margin-5px-bottom">Recent Work</h6>
-                            <p>See Our Amazing Work</p>
-                        </div>
-                    </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- gallery item -->
-            <div class="col-md-6 items web sm-width-100">
-                <div class="item-img">
-                    <a href="images/workimg1.jpg" data-fancybox="images">
-                    <img src="images/workimg1.jpg" alt="image">
-                    <div class="item-img-overlay valign">
-                        <div class="overlay-info width-100">
-                            <h6 class="margin-5px-bottom">Recent Work</h6>
-                            <p>See Our Amazing Work</p>
-                        </div>
-                    </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- gallery item -->
-            <div class="col-md-6 items graphic sm-width-100">
-                <div class="item-img">
-                    <a href="images/workimg6.jpg" data-fancybox="images">
-                    <img src="images/workimg6.jpg" alt="image">
-                    <div class="item-img-overlay valign">
-                        <div class="overlay-info width-100">
-                            <h6 class="margin-5px-bottom">Recent Work</h6>
-                            <p>See Our Amazing Work</p>
-                        </div>
-                    </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- gallery item -->
-            <div class="col-md-3 items brand sm-width-100">
-                <div class="item-img">
-                    <a href="images/workimg4.jpg" data-fancybox="images">
-                    <img src="images/workimg4.jpg" alt="image">
-                    <div class="item-img-overlay valign">
-                        <div class="overlay-info width-100">
-                            <h6 class="margin-5px-bottom">Recent Work</h6>
-                            <p>See Our Amazing Work</p>
-                        </div>
-                    </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- gallery item -->
-            <div class="col-md-3 items graphic sm-width-100">
-                <div class="item-img">
-                    <a href="images/workimg5.jpg" data-fancybox="images">
-                    <img src="images/workimg5.jpg" alt="image">
-                    <div class="item-img-overlay valign">
-                        <div class="overlay-info width-100">
-                            <h6 class="margin-5px-bottom">Recent Work</h6>
-                            <p>See Our Amazing Work</p>
-                        </div>
-                    </div>
-                    </a>
-                </div>
-            </div>
-
-        </div>
-
-            <div class="clear-fix"></div>
-
-
-    </div>
-</section>
-<!-- end work -->
-
-<!-- start price -->
-<section id="price">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-9 text-center center-col last-paragraph-no-margin">
-                <div class="sec-title margin-100px-bottom">
-                    <div class="text-large text-red margin-10px-bottom font-weight-400 text-blue">Choose The Best</div>
-                    <h3 class="text-capitalize alt-font text-extra-dark-gray font-weight-300">
-                        Our Packages</h3>
-                    <p class="width-75 margin-lr-auto md-width-90 xs-width-100 xs-margin-30px-bottom">Excepteur sint
-                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                        laborum. Perspiciatis unde omnis iste natus error sit.</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 col-sm-6 col-xs-12 sm-margin-30px-bottom">
-                <div class="price-item text-left">
-                    <h6 class="alt-font font-weight-500 margin-10px-bottom">Basic</h6>
-                    <div class="price-tag clearfix alt-font">
-                                <span class="price alt-font text-dark-gray">
-                                    <span class="sign">$</span>
-                                    <span class="currency">49</span>
-                                    <span class="month">/MON</span>
-                                </span>
-                        <span class="price-text text-dark-gray no-margin">It has survived not only five centuries, but also the leap into electronic.</span>
-                    </div>
-                    <ul class="packages">
-                        <li><i class="fa fa-check" aria-hidden="true"></i>Full access</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i>Unlimited Bandwidth</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i>Powerful Admin Panel</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i>Email Accounts</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i>8 Free Forks Every Months</li>
-                    </ul>
-                    <a href="#." class="btn btn-blue btn-rounded width-100 btn-large">Buy Now</a>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 sm-margin-30px-bottom">
-                <div class="price-item center text-left">
-                    <h6 class="alt-font font-weight-500 margin-10px-bottom">Standard</h6>
-                    <div class="price-tag clearfix alt-font">
-                                <span class="price alt-font text-white">
-                                    <span class="sign">$</span>
-                                    <span class="currency">79</span>
-                                    <span class="month">/MON</span>
-                                </span>
-                        <span class="price-text text-white no-margin">It has survived not only five centuries, but also the leap into electronic.</span>
-                    </div>
-                    <ul class="packages">
-                        <li><i class="fa fa-check" aria-hidden="true"></i>Full access</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i>Unlimited Bandwidth</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i>Powerful Admin Panel</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i>Email Accounts</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i>8 Free Forks Every Months</li>
-                    </ul>
-                    <a href="#." class="btn btn-white btn-rounded width-100 btn-large">Buy Now</a>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-12 col-xs-12">
-                <div class="price-item text-left">
-                    <h6 class="alt-font font-weight-500 margin-10px-bottom">Premium</h6>
-                    <div class="price-tag clearfix alt-font">
-                                <span class="price alt-font text-dark-gray">
-                                    <span class="sign">$</span>
-                                    <span class="currency">99</span>
-                                    <span class="month">/MON</span>
-                                </span>
-                        <span class="price-text text-dark-gray no-margin">It has survived not only five centuries, but also the leap into electronic.</span>
-                    </div>
-                    <ul class="packages">
-                        <li><i class="fa fa-check" aria-hidden="true"></i>Full access</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i>Unlimited Bandwidth</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i>Powerful Admin Panel</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i>Email Accounts</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i>8 Free Forks Every Months</li>
-                    </ul>
-                    <a href="#." class="btn btn-blue btn-rounded width-100 btn-large">Buy Now</a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</section>
-<!-- start price -->
-
-<!-- start blog -->
-<section id="blog" class="no-padding">
-    <div class="half-section">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6 sm-padding-50px-tb">
-                    <div class="split-box text-center center-block equalheight">
-                        <div class="about-box">
-                            <div class="text-large text-red margin-10px-bottom font-weight-400 text-blue">Our Latest News</div>
-                            <h3 class="text-capitalize alt-font text-extra-dark-gray font-weight-300">
-                                Marketing Blog</h3>
-                            <p>Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus.</p>
-                            <a href="#." class="btn btn-transparent-blue btn-rounded btn-large margin-20px-top">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 no-padding">
-                    <div class="about-image hover-effect">
-                        <img alt="" src="images/split-img3.jpg" class="equalheight">
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </section>
-<!-- end blog -->
-
-<!-- clients -->
-<section class="no-transition bg-very-light-gray">
-    <h2 class="display-none" aria-hidden="true">boltex</h2>
-    <div class="container">
-        <div class="row">
-            <div class="owl-carousel owl-theme owl-client">
-                <div class="client item">
-                    <img src="images/client-one.png" alt="image">
-                </div>
-                <div class="client item">
-                    <img src="images/client-two.png" alt="image">
-                </div>
-                <div class="client item">
-                    <img src="images/client-three.png" alt="image">
-                </div>
-                <div class="client item">
-                    <img src="images/client-one.png" alt="image">
-                </div>
-                <div class="client item">
-                    <img src="images/client-two.png" alt="image">
-                </div>
-                <div class="client item">
-                    <img src="images/client-three.png" alt="image">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- clients end -->
+<!--end feature -->
 
 <!-- testimonials -->
-<section class="testimonial-two no-padding-top bg-very-light-gray">
+<section id="reviews" class="testimonial-two no-padding-top bg-very-light-gray">
     <div class="parallax testimonial-two-bg no-transition">
         <div class="container">
             <div class="row">
                 <div class="col-sm-offset-4 col-sm-8 equalheight">
                     <div class="testimonial-two-title">
                         <h3 class="area-title text-capitalize alt-font text-white font-weight-300">
-                            Meet Our<br><span class="font-weight-400">Happy Client</span>
+                            Meet My<br><span class="font-weight-400">Happy Clients</span>
                         </h3>
                     </div>
                 </div>
@@ -882,16 +532,6 @@ $sixtySession = $row["sixtySession"];
 </section>
 <!-- testimonials end -->
 
-<!-- map -->
-<section class="no-padding">
-    <h2 class="display-none no-padding no-margin" aria-hidden="true">Finza</h2>
-    <div class="row">
-        <div class="map-horizontal">
-            <div class="map" id="map"></div>
-        </div>
-    </div>
-</section>
-<!-- map end -->
 
 <!-- contact-->
 <section id="contact" class="btn-version">
@@ -903,10 +543,9 @@ $sixtySession = $row["sixtySession"];
                     <div class="sec-title margin-50px-bottom">
                         <h3 class="text-capitalize alt-font text-extra-dark-gray font-weight-300">
                             Lets Get In Touch</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
-                            illum ratione atque praesentium
-                            laudantium quaerat laborum consecteturLorem ipsum dolor sit amet, consectetur adipisicing
-                            elit.</p>
+                        <p>If you are interested in my programs or just want a simple consultation then please fill out the contact form to get in touch.
+                           Alternatively, you can contact me directly using the contact information found below.
+                        </p>
                     </div>
                     <div class="row margin-15px-bottom">
                         <div class="col-sm-1 no-padding">
@@ -915,7 +554,7 @@ $sixtySession = $row["sixtySession"];
                             </div>
                         </div>
                         <div class="col-sm-11">
-                            <p class="text-small">San Francisco, CA 560 Bush St & 20th Ave,<br> Apt 5 San Francisco, 230909</p>
+                            <p class="text-small">IronGrind True Fitness<br>10934 Montana Ave, El Paso, TX 79936</p>
                         </div>
                     </div>
                     <div class="row margin-15px-bottom">
@@ -925,7 +564,7 @@ $sixtySession = $row["sixtySession"];
                             </div>
                         </div>
                         <div class="col-sm-11">
-                            <p class="text-small">+01 2323 7328 322<br>+01 2323 7328 322</p>
+                            <p class="text-small">915-422-1452</p>
                         </div>
                     </div>
                     <div class="row margin-15px-bottom">
@@ -935,7 +574,7 @@ $sixtySession = $row["sixtySession"];
                             </div>
                         </div>
                         <div class="col-sm-11 xs-margin-50px-bottom">
-                            <p class="text-small">email@demo.com<br>www.demo.com</p>
+                            <p class="text-small">adrianbigboy24@gmail.com</p>
                         </div>
                     </div>
                 </div>
@@ -985,18 +624,14 @@ $sixtySession = $row["sixtySession"];
         <div class="container">
             <div class="row">
                 <div class="medium-icon social-icon-style-3 social_icon list-inline margin-20px-top">
-                    <a class="facebook text-white facebook-bg-hvr wow fadeInUp" data-wow-duration=".5s" href="#."><i class="fa fa-facebook"
+                    <a class="facebook text-white facebook-bg-hvr wow fadeInUp" data-wow-duration=".5s" href="https://www.facebook.com/adrian.leanknights"><i class="fa fa-facebook"
                                                                                                                      aria-hidden="true"></i><span></span></a>
-                    <a class="twitter text-white twitter-bg-hvr wow fadeInDown" data-wow-duration=".5s" href="#."><i class="fa fa-twitter"
+                    <a class="twitter text-white twitter-bg-hvr wow fadeInDown" data-wow-duration=".5s" href="https://twitter.com/adrianalive101"><i class="fa fa-twitter"
                                                                                                                      aria-hidden="true"></i><span></span></a>
-                    <a class="pinterest text-white pinterest-bg-hvr wow fadeInUp" data-wow-duration=".5s" href="#."><i class="fa fa-pinterest-p"
+                    <a class="instagram text-white instagram-bg-hvr wow fadeInUp" data-wow-duration=".5s" href="https://www.instagram.com/adriantwentythreeone/"><i class="fa fa-instagram"
                                                                                                                        aria-hidden="true"></i><span></span></a>
-                    <a class="google text-white google-bg-hvr wow fadeInDown" data-wow-duration=".5s" href="#."><i class="fa fa-snapchat-ghost"
-                                                                                                                   aria-hidden="true"></i><span></span></a>
                 </div>
             </div>
-            <p class="text-white text-large margin-10px-bottom margin-20px-top">© Boltex</p>
-            <p class="text-light-gray margin-10px-bottom">Made With Love By ThemesIndustry</p>
         </div>
     </div>
 
