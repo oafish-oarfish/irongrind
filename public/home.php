@@ -1,32 +1,4 @@
-<?php
 
-$ini = parse_ini_file('../config/config.ini.php');
-$servername = $ini['servername'];     // mydatabase
-$username = $ini['username'];     // myuser
-$password = $ini['password']; // mypassword
-$databasename = $ini['databasename'];   
-
-// Create connection
-$conn = new mysqli($servername, $username, $password,$databasename);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-} 
-
-$sql = "SELECT * FROM Pricing_Promo";
-$result = $conn->query($sql);
-$row = $result->fetch_assoc();
-
-$promoText = $row["promoText"]; 
-$weekPrice = $row["weekPrice"];
-$twoWeekPrice = $row["twoWeekPrice"];
-$monthPrice = $row["monthPrice"];
-$twentySession = $row["twentySession"];
-$fortySession = $row["fortySession"];
-$sixtySession = $row["sixtySession"];
-
-?>
 
 <!doctype html>
 <html class="no-js" lang="en">
