@@ -1,5 +1,3 @@
-
-
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
@@ -89,7 +87,7 @@
                                 <a href="231.html">23/1</a>
                             </li>
                             <li>
-                                <a href="pricing.html">Pricing</a>
+                                <a href="pricing.php">Pricing</a>
                             </li>
                         </ul>
                     </div>
@@ -146,7 +144,7 @@
 
                             </li>
                             <li class="clearfix">
-                                <a href="pricing" class="scroll"> <span>07.</span>Pricing</a>
+                                <a href="pricing.php" class="scroll"> <span>07.</span>Pricing</a>
 
                             </li>
 
