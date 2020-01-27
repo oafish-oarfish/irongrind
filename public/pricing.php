@@ -1,3 +1,26 @@
+<?php
+
+$ini = parse_ini_file('../config/config.ini.php');
+$servername = $ini['servername'];     // mydatabase
+$username = $ini['username'];     // myuser
+$password = $ini['password']; // mypassword
+$databasename = $ini['databasename'];   
+
+// Create connection
+$conn = new mysqli($servername, $username, $password,$databasename);
+
+// Check connection
+if ($conn->connect_error) { die("Connection failed: " . $conn->connect_error); }
+$sql = "SELECT * FROM Pricing_Promo"; $result = $conn->query($sql); $row =
+$result->fetch_assoc(); $promoText = $row["promoText"]; 
+$weekPrice = $row["weekPrice"]; 
+$twoWeekPrice = $row["twoWeekPrice"]; 
+$monthPrice = $row["monthPrice"]; 
+$twentySession = $row["twentySession"]; 
+$fortySession = $row["fortySession"]; 
+$sixtySession = $row["sixtySession"]; 
+?>
+
 <!DOCTYPE html>
 <html class="no-js" lang="en">
   <head>
@@ -13,7 +36,7 @@
     <!-- keywords -->
     <meta name="keywords" content="" />
     <!-- title -->
-    <title>23/1</title>
+    <title>Pricing</title>
     <!-- favicon -->
     <link rel="icon" href="images/ig_images/dumbbell_icon.png" />
     <!-- animation -->
@@ -37,29 +60,14 @@
     <link rel="stylesheet" href="css/style.css" />
     <!-- Custom Style -->
     <link rel="stylesheet" href="css/custom.css" />
-
-    <style>
-      .video-container {
-        position: relative;
-        padding-bottom: 56.25%;
-        padding-top: 30px;
-        height: 0;
-        overflow: hidden;
-      }
-
-      .video-container iframe,
-      .video-container object,
-      .video-container embed {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-      }
-    </style>
   </head>
 
-  <body class="side-nav">
+  <body
+    data-spy="scroll"
+    data-target=".navbar"
+    data-offset="90"
+    class="side-nav"
+  >
     <div id="loader">
       <div class="loader-inner">
         <div class="spinner">
@@ -78,9 +86,15 @@
         <div class="container nav-header-container">
           <div class="row">
             <div class="col-md-2 col-xs-5">
-              <!-- <a href="#home" title="Logo" class="logo scroll"><img src="images/logo-blue-black.png"
-                                                                          class="logo-dark" alt="boltex"><img
-                            src="images/logo-blue-white.png" alt="boltex" class="logo-light default"></a> -->
+              <!-- <a href="#home" title="Logo" class="logo scroll"
+                ><img
+                  src="images/logo-blue-black.png"
+                  class="logo-dark"
+                  alt="boltex"/><img
+                  src="images/logo-blue-white.png"
+                  alt="boltex"
+                  class="logo-light default"
+              /></a> -->
             </div>
             <!-- end logo -->
             <div
@@ -101,7 +115,7 @@
                     <a href="home.php">Home</a>
                   </li>
                   <li>
-                    <a href="pricing.php">Pricing</a>
+                    <a href="231.html">23/1</a>
                   </li>
                 </ul>
               </div>
@@ -165,7 +179,7 @@
                     <a href="home.php"><span>01.</span>Home</a>
                   </li>
                   <li class="clearfix">
-                    <a href="pricing.php"> <span>02.</span>Pricing</a>
+                    <a href="231.html"><span>02.</span>23/1</a>
                   </li>
                 </ul>
               </nav>
@@ -176,135 +190,146 @@
     </header>
     <!-- end header -->
 
-    <!-- blog cover-->
+    <!-- cover-->
     <section class="bg blog-cover">
       <div class="container">
         <div class="text-center sm-padding-40px-tb sm-padding-15px-lr">
           <h5
-            class="text-capitalize alt-font text-white margin-20px-bottom font-weight-700"
+            class="text-uppercase alt-font text-white margin-20px-bottom font-weight-700"
           >
-            23/1
+            Prices
           </h5>
           <p class="text-white margin-5px-bottom">
-            The most exciting meal plan available
+            <?php echo $promoText ?>
           </p>
+
           <!-- <div class="page_nav">
             <span class="text-white">You are here:</span>
             <a href="index.html" class="text-white">Home</a>
             <span class="text-white"
-              ><i class="fa fa-angle-double-right"></i> Blog</span
+              ><i class="fa fa-angle-double-right"></i> 404</span
             >
           </div> -->
         </div>
       </div>
     </section>
-    <!-- blog cover end-->
+    <!-- cover end-->
 
-    <!-- blog content-->
-    <section class="standalone text-center">
-      <h2 class="display-none" aria-hidden="true">reone</h2>
+    <!-- start features -->
+    <section id="features" class="position-relative">
       <div class="container">
-        <div
-          class="standalone-title margin-100px-bottom sm-margin-50px-bottom xs-margin-20px-bottom"
-        >
-          <h5
-            class="text-uppercase alt-font text-extra-dark-gray margin-20px-bottom font-weight-700 sm-width-100 xs-width-100"
-          >
-            What is <span class="text-blue">23/1 </span>
-          </h5>
-          <p
-            class="width-75 margin-lr-auto md-width-100 xs-width-100 xs-margin-30px-bottom"
-          >
-            Throughout 10 years of personal training I have tried every fad
-            diet, bodybuilding diet, and supplement you can think of. 23/1 is
-            the only diet that gave me seemingly instant results and helped me
-            acheive my fitness goals faster than any other diet available.
-            <a href="home.php#contact">Contact me</a>
-            to begin your 23/1 journey!
-          </p>
-        </div>
         <div class="row">
-          <div
-            class="col-md-6 text-left sm-text-center margin-80px-bottom sm-margin-50px-bottom"
-          >
-            <div class="standalon-text">
-              <h5
-                class="text-uppercase alt-font text-extra-dark-gray margin-20px-bottom font-weight-700 sm-width-100 xs-width-100"
+          <div class="col-lg-9 text-center center-col last-paragraph-no-margin">
+            <div class="sec-title margin-100px-bottom">
+              <!-- <div
+                class="text-large text-red margin-10px-bottom font-weight-400 text-blue"
               >
-                <span class="text-blue">23/1 </span>Beginnnings
-              </h5>
-              <p>
-                I discovered 23/1 during my occasional research into new meal
-                plans. I was searching for something that would cut down the
-                time I took preparing my meals and actually consuming them. I
-                wanted to find something that allowed me to eat the foods I
-                love, acheive my fitness goals, and give me more time to do the
-                things I love.
-              </p>
-              <p>
-                I stumbled upon this video and it intrigued me. This video is
-                the foundation of the 23/1 meal plan. At first I was skeptical,
-                but upon implementing this program for myself I am a beleiver,
-                advocate, and user of this program.
-                <strong>
-                  NOTE: The video is an extreme instance of 23/1, <i>my</i> 23/1
-                  program is not as intensive as what is portrayed in the video.
-                </strong>
-              </p>
+                All You Need To Know
+              </div> -->
+              <h3
+                class="text-capitalize alt-font text-extra-dark-gray font-weight-300"
+              >
+                My Prices
+              </h3>
+              <!-- <p
+                class="width-75 margin-lr-auto md-width-90 xs-width-100 xs-margin-30px-bottom"
+              >
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum. Perspiciatis
+                unde omnis iste natus error sit.
+              </p> -->
             </div>
           </div>
-          <div
-            class="col-md-6 text-left sm-text-center margin-80px-bottom sm-margin-50px-bottom"
-          >
-            <div class="standalon-image">
-              <!-- <img src="images/standalone1.jpg" alt="image" /> -->
-              <div class="video-container">
-                <iframe
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/XxNdUZ_oras"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
-              </div>
-            </div>
-          </div>
+        </div>
 
-          <div
-            class="col-md-6 text-left sm-text-center margin-80px-bottom sm-margin-50px-bottom pull-right"
-          >
-            <div class="standalon-text">
-              <h5
-                class="text-uppercase alt-font text-extra-dark-gray margin-20px-bottom font-weight-700 sm-width-100 xs-width-100"
+        <div class="row">
+          <div class="col-md-4 col-sm-6 col-xs-12 margin-30px-bottom">
+            <div class="services-item text-center">
+              <!-- <i class="fa fa-bicycle" aria-hidden="true"></i> -->
+              <h6
+                class="text-extra-dark-gray margin-10px-tb alt-font font-weight-400"
               >
-                <span class="text-blue">23/1 </span>Results
-              </h5>
+                20 Sessions
+              </h6>
+              <hr class="services-hr" />
               <p>
-                As I have mentioned before, the 23/1 program is one of the
-                easiest programs I have ever put myself through. This program
-                has given me the best results I have ever seen in myself
-                throughout my 10 year career.
-              </p>
-              <p>
-                These pictures demonstrate how powerful 23/1 can be. These are
-                my before and after results of the 23/1 program after only 2
-                months! Please <a href="home.php#contact">contact me</a> now to
-                begin your 23/1 journey!
+                <?php echo "$".$twentySession ?>
               </p>
             </div>
           </div>
-          <div
-            class="col-md-6 text-left sm-text-center margin-80px-bottom sm-margin-50px-bottom pull-left"
-          >
-            <div class="standalon-image">
-              <img src="images/standalone2.jpg" alt="image" />
+          <div class="col-md-4 col-sm-6 col-xs-12 margin-30px-bottom">
+            <div class="services-item text-center">
+              <!-- <i class="fa fa-umbrella" aria-hidden="true"></i> -->
+              <h6
+                class="text-extra-dark-gray margin-10px-tb alt-font font-weight-400"
+              >
+                40 Sessions
+              </h6>
+              <hr class="services-hr" />
+              <p>
+                <?php echo "$".$fortySession ?>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 margin-30px-bottom">
+            <div class="services-item text-center">
+              <!-- <i class="fa fa-bar-chart" aria-hidden="true"></i> -->
+              <h6
+                class="text-extra-dark-gray margin-10px-tb alt-font font-weight-400"
+              >
+                60 Sessions
+              </h6>
+              <hr class="services-hr" />
+              <p>
+                <?php echo "$".$sixtySession ?>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 margin-30px-bottom">
+            <div class="services-item text-center">
+              <!-- <i class="fa fa-laptop" aria-hidden="true"></i> -->
+              <h6
+                class="text-extra-dark-gray margin-10px-tb alt-font font-weight-400"
+              >
+                Weekly
+              </h6>
+              <hr class="services-hr" />
+              <p>
+                <?php echo "$".$weekPrice ?>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 margin-30px-bottom">
+            <div class="services-item text-center">
+              <!-- <i class="fa fa-book" aria-hidden="true"></i> -->
+              <h6
+                class="text-extra-dark-gray margin-10px-tb alt-font font-weight-400"
+              >
+                Bi-Weekly
+              </h6>
+              <hr class="services-hr" />
+              <p>
+                <?php echo "$".$twoWeekPrice ?>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="services-item text-center">
+              <!-- <i class="fa fa-support" aria-hidden="true"></i> -->
+              <h6
+                class="text-extra-dark-gray margin-10px-tb alt-font font-weight-400"
+              >
+                Monthly
+              </h6>
+              <hr class="services-hr" />
+              <p>
+                <?php echo "$".$monthPrice ?>
+              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- blog content end-->
 
     <!--footer Start-->
     <footer class="bg-extra-dark-gray padding-30px-tb text-center">
